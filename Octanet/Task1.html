@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Conference 2024</title>
+    <style>
+        /* Reset some basic styles */
+        body, h1, h2, h3, p, ul, li, a {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            color: inherit;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header ul {
+            display: flex;
+        }
+
+        header ul li {
+            margin-left: 20px;
+        }
+
+        header ul li a {
+            color: white;
+            font-size: 16px;
+        }
+
+        .hero {
+            background: url('hero-bg.jpg') no-repeat center center/cover;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #e91e63;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #c2185b;
+        }
+
+        .about, .speakers, .schedule, .register {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .about h2, .speakers h2, .schedule h2, .register h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .about p {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .speaker-grid {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .speaker-grid .speaker img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .speaker-grid .speaker h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .speaker-grid .speaker p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .schedule ul {
+            font-size: 18px;
+            line-height: 2;
+        }
+
+        .schedule ul li {
+            margin-bottom: 10px;
+        }
+
+        .register p {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TechConf 2024</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Tech Conference 2024</h1>
+            <p>Join industry leaders, innovators, and technology enthusiasts for an unforgettable event.</p>
+            <a href="#register" class="cta-button">Register Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About the Conference</h2>
+        <p>The Tech Conference 2024 is the premier event for technology professionals. It brings together thought leaders and experts to share insights on the latest trends and developments in the tech industry.</p>
+    </section>
+
+    <section id="speakers" class="speakers">
+        <h2>Featured Speakers</h2>
+        <div class="speaker-grid">
+            <div class="speaker">
+                <img src="1.jpg" alt="Speaker 1">
+                <h3>Prof. John Smith</h3>
+                <p>AI Researcher, TechCorp</p>
+            </div>
+            <div class="speaker">
+                <img src="2.webp" alt="Speaker 2">
+                <h3>Dr. Jane Doe</h3>
+                <p>CTO, InnovateX</p>
+            </div>
+            <div class="speaker">
+                <img src="3.png" alt="Speaker 3">
+                <h3>Dr.Prof.Andrew Dalvia</h3>
+                <p>Data Scientist, FutureTech</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="schedule">
+        <h2>Event Schedule</h2>
+        <ul>
+            <li>09:00 AM - Opening Keynote</li>
+            <li>10:30 AM - Breakout Sessions</li>
+            <li>12:00 PM - Lunch</li>
+            <li>01:30 PM - Panel Discussion</li>
+            <li>03:00 PM - Workshops</li>
+            <li>05:00 PM - Closing Remarks</li>
+        </ul>
+    </section>
+
+    <section id="register" class="register">
+        <h2>Register Now</h2>
+        <p>Don't miss out on the opportunity to be part of this exciting event. Secure your spot today!</p>
+        <center><a href="#" class="cta-button">Register</a></center>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tech Conference. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
